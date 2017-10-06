@@ -16,14 +16,14 @@ public class BinarySearchTree {
 			{
 				System.out.println("Enter the number of node.");
 				long n = scan.nextInt();
-				long count = u.find((int) n);
+				long count = Utility.find((int) n);
 				System.out.println(count);
 			}
 			scan.close();
 		}
 		catch(Exception e)
 		{
-			System.out.println("Exception arrised");
+			e.printStackTrace();
 		}
 	}
 

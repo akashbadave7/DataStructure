@@ -32,8 +32,8 @@ class Node
         return link;
     }    
     /*  Function to get data from current Node  */
-    public Object getData()
+    public <T> int getData()
     {
-        return data;
+        return (int) data;
     }
 }

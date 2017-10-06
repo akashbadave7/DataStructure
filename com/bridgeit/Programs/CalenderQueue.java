@@ -123,6 +123,7 @@ public class CalenderQueue {
         {
         	day.insert(days[i]);
         }
+        month.display();
     	int mon = scan.nextInt();
         int year = scan.nextInt();
         if (mon == 2 && isLeapYear(year)) 

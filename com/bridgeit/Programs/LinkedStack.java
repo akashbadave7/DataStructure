@@ -20,9 +20,9 @@ public class LinkedStack
     }    
        
     /*  Function to push an element to the stack */
-    public void push(int data)
+    public <T>void push(T days)
     {
-        Node nptr = new Node (data, null);
+        Node nptr = new Node (days, null);
         if (top == null)
             top = nptr;
         else
@@ -44,7 +44,7 @@ public class LinkedStack
     }    
      
     /*  Function to display the status of the stack */
-    public void display()
+    public <T>void display()
     {
         System.out.print("\nStack = ");
         if (size == 0) 

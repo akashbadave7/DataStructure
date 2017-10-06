@@ -68,8 +68,8 @@ class linkedQueue
         System.out.println();        
     }
 }
-public class Queue {
-
+public class Queue 
+{
 	public static void main(String[] args) 
 	{
 		Utility u = new Utility();
@@ -98,5 +98,4 @@ public class Queue {
 		}
 		ls.display();
 	}
-
 }

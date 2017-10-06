@@ -17,7 +17,7 @@ public class UnorderedListString
 			Scanner scan = new Scanner(System.in);
 			// creating linked list
 			List<String> list = new LinkedList<String>();
-			u.readDataFromFile(list);
+			Utility.readDataFromFile(list);
 			System.out.println("Enter the word to be search:");
 			String search = scan.nextLine();
 			u.searchingWordFromFile(list,search);
